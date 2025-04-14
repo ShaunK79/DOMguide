@@ -15,7 +15,12 @@
     <div class="container">
       <h2>Flip the Switch(single)</h2>
       <p id="circuit">Circuit is OFF</p>
-      <button>Turn ON</button>
+      <button
+        onclick="document.querySelector('#circuit').innerText"
+        ="The Circuit is ON"
+      >
+        Turn ON
+      </button>
     </div>
     <div class="container">
       <h2>Highlight all Lights(multiple)</h2>
@@ -24,29 +29,29 @@
         <li>Light 2</li>
         <li>Light 3</li>
       </ul>
-      <button>Power All Lights</button>
+      <button onclick="highLight()">Power All Lights</button>
     </div>
     <div class="container">
       <h2>Add Electrical Component(Create and Append)</h2>
       <ul id="componentList"></ul>
-      <button>Add Component</button>
+      <button onclick="addComponent()">Add Component</button>
     </div>
     <div class="container">
       <h2>Insert Fuse "Before" Breaker</h2>
       <ul id="fuseBoard">
         <li>Main Breaker</li>
       </ul>
-      <button>Insert First</button>
+      <button onclick="insertFuse()">Insert First</button>
     </div>
     <div class="container">
       <h2>Replace Blown Lamp</h2>
       <p id="lamp">Blown Lamp</p>
-      <button>Replace Lamp</button>
+      <button onclick="replaceLamp()">Replace Lamp</button>
     </div>
     <div class="container">
       <h2>Remove Damaged Wire</h2>
       <p id="wire">Damaged Wire Detected</p>
-      <button>Remove Wire</button>
+      <button onclick="document.getElementByID('wire')">Remove Wire</button>
     </div>
 
     <script src="/Users/shaunalexanderkriel/DOMguide/public/script.js"></script>
