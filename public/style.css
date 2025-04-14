@@ -27,3 +27,7 @@ div {
 button {
     background-color: rgb(122, 247, 6);
 }
+
+button:hover {
+    background-color: rgb(187, 247, 131);
+}
