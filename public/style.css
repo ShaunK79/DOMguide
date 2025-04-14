@@ -20,14 +20,31 @@ body {
    
 }
 
+ul {
+    padding-left: 1.5rem;
+}
+
 div {
     display: block;
 }
 
 button {
-    background-color: rgb(122, 247, 6);
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    background-color: #0547fd;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: rgb(187, 247, 131);
+    color: #333;
+}
+
+input[type='text'] {
+    padding: 0.5rem;
+    width: 70%;
+    margin-right: 1rem;
 }
